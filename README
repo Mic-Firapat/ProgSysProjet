@@ -1,0 +1,17 @@
+Ce README est juste là pour vous présenter les fonctionnalités "bonus" que nous nous sommes amusés à ajouter.
+Tout d'abord, sachez que l'appel d'initial peut se faire avec autant de types d'outils que désiré (un minimum de 4 est de mise tout de fois, c'est un garage, il faut bien du matériel).
+initial 2 3 10 5 2 3 4 9 7 8
+est donc un appel tout à fait fonctionnel (on l'espère).
+Le fichier parametre.h contient également de multiples pseudo constantes en plus des déclarations de types nécessaires au fonctionnment du code qui sont faciles à comprendre et à modifier pour altérer le fonctionnement du code et effectuer les tests voulus.
+De plus, envoyer SIGINT à initial pendant l'exécution (à l'aide de CTRL+C par exemple) affiche un état actuel de la liste d'attente des clients pour chaque chef dans ce style :
+---------------------------------------
+Voici l'état d'occupation des chefs d'ateliers à cet instant :
+Chefs d'atelier 1 [470334] : occupation clients = 1
+Chefs d'atelier 2 [470335] : occupation clients = 0
+---------------------------------------
+
+Pour compiler le projet : make ou make all sont de mise.
+Pour clean les fichiers temporaires et .o : make clean
+Pour clean les executables et fichiers de clé : make clean_all
+
+Projet réalisé par Ian RIVIERE et Alexandre MARINE.
