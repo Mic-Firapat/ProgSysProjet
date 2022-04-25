@@ -1,7 +1,8 @@
 # ProgSysProjet
 University project about system programmation. The goal was to create 4 types of process, one (initial) that launches semaphores, other process and shared memory spaces. One (client) that asks for a task to be performed using certain tools (the task simply being a "sleep"). One (ouvrier) that awaits orders from the chefs to perform the tasks and the last one (chefs) begin a process that makes the link between the clients and the ouvriers.
+This project was done in 2 days for university purposes by 2 persons.
 
-Next is the subject given to the students by our teacher (in French).
+Next is the subject given to the students by our teacher (in French), here's a link to his personal website used for the classes : https://perso.univ-st-etienne.fr/ezequel/.
 # The project (in French)
 
  On se propose de simuler l'activité d'un garage. Dans ce garage, deux catégories d'employés, des chefs d'ateliers et des mécaniciens, s'activent pour satisfaire les requêtes de clients (donc, d'ores et déjà, il y aura au moins trois programmes à écrire ...). Plus précisément :
