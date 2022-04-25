@@ -1,0 +1,2 @@
+# ProgSysProjet
+University project about system programmation. The goal was to create 4 types of process, one (initial) that launches semaphores, other process and shared memory spaces. One (client) that asks for a task to be performed using certain tools (the task simply being a "sleep"). One (ouvrier) that awaits orders from the chefs to perform the tasks and the last one (chefs) begin a process that makes the link between the clients and the ouvriers.
